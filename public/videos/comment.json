@@ -1,0 +1,651 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "PlGGTMy3tT2Dkcc8ZfDL2dLZsCo",
+  "nextPageToken": "QURTSl9pMC10LXJDTkgwbE14ZERXVFBGZTB3V0gxbzJtV3htU1lVeDRFbHV2Zk9qdHI2R1JFT2l3U2FwcFRTVkxFNnZvWmVlVDdGUl9faw==",
+  "pageInfo": {
+    "totalResults": 20,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "or2UpFt-LMGuitpLWeFEece4dIY",
+      "id": "UgzL1LeI37zlKvmX8dJ4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZJQX3hWtge8u1pkPJAvu9M1mf8o",
+          "id": "UgzL1LeI37zlKvmX8dJ4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "🇹🇷🇹🇷🇹🇷🇹🇷♥️♥️♥️🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷",
+            "textOriginal": "🇹🇷🇹🇷🇹🇷🇹🇷♥️♥️♥️🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷🇰🇷",
+            "authorDisplayName": "İsmigul bilen",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/FW09LbduHHvcMoT6K_CtCyE6brrdGdkpRb5HBLOimhEaKTzjWgXHc0xBHzncEfbvWauSknJCOw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCy4XDysPTRE9kuNB4sW7r4g",
+            "authorChannelId": {
+              "value": "UCy4XDysPTRE9kuNB4sW7r4g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T09:10:31Z",
+            "updatedAt": "2023-08-18T09:10:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QEec-jLRZq0NvXAwxsGLYgTqiM0",
+      "id": "UgyqMQ2El-cLzCD2jZl4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Hvt7l1Vt2KYX-HJQbGSkLA4NHQw",
+          "id": "UgyqMQ2El-cLzCD2jZl4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "i miss you jk😩😩<br>i kiss you😘😘😘<br>always be happy❤❤❤💘",
+            "textOriginal": "i miss you jk😩😩\ni kiss you😘😘😘\nalways be happy❤❤❤💘",
+            "authorDisplayName": "Aqsa Hafeez",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/0BUfT3xXbD02rXcEMDKV-CFDxv1c3PE4dD14975CniTRbtDqq8oWWpdcBNuoks5alyRN-P1NKFk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC0DJ6RkLKOHcNg4kJbnXTpw",
+            "authorChannelId": {
+              "value": "UC0DJ6RkLKOHcNg4kJbnXTpw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T09:09:28Z",
+            "updatedAt": "2023-08-18T09:09:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ul6GxqJHIrqox7ob633iLl2ZXlk",
+      "id": "UgwzSYhb9iDnOYqMjpF4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "AtC392NKx8j7z8VfF3U4UcSIDD4",
+          "id": "UgwzSYhb9iDnOYqMjpF4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "JK you are super talented 💜 I m rooting for you 💜🐰",
+            "textOriginal": "JK you are super talented 💜 I m rooting for you 💜🐰",
+            "authorDisplayName": "Madhuri Kale",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaTVBSgg17XkA46kjk3dEjqDeZPWcrUn0hzLNQkULQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCV296oOjmn2RyBpHmuXU6-w",
+            "authorChannelId": {
+              "value": "UCV296oOjmn2RyBpHmuXU6-w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T09:07:32Z",
+            "updatedAt": "2023-08-18T09:07:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xQOrKMR4VUc3sOo51J5fyxFGshk",
+      "id": "UgwskfJqZ3yS2OB1AuJ4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7EmeKmxZWX9_Ryk1_dlrNnQvW6Y",
+          "id": "UgwskfJqZ3yS2OB1AuJ4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Brian Puspos kabayan love you join to our Jk",
+            "textOriginal": "Brian Puspos kabayan love you join to our Jk",
+            "authorDisplayName": "Sheina mae Sandig",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/e3E50vlq-JxtMzadBCXT89ldfZWywATYHvprP-7LpAPHNndc8oBJfvWRhSIK6wvAju9knzLN=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCxpNG83xRoxj4ky4zuhFbMw",
+            "authorChannelId": {
+              "value": "UCxpNG83xRoxj4ky4zuhFbMw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T09:07:23Z",
+            "updatedAt": "2023-08-18T09:07:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "8HAGHi_svlJEjIAewQvtjGF-HuQ",
+      "id": "UgyOJtixMRh8NbufNrx4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EUmfpyp0W85nWSrzYabKV5I6l6o",
+          "id": "UgyOJtixMRh8NbufNrx4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "thankyou so much for your hardwork jungkook",
+            "textOriginal": "thankyou so much for your hardwork jungkook",
+            "authorDisplayName": "Sunidhi",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRFW6MuJ_9ZuK2M8onhOkhB_4rJal27w0oeqj5MulMQdaBeMeyxYEREyKWrU8zO=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCxkEOulUhfhfoslxf07sB1w",
+            "authorChannelId": {
+              "value": "UCxkEOulUhfhfoslxf07sB1w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T09:03:10Z",
+            "updatedAt": "2023-08-18T09:03:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Z-PlyGGVhZmiA8LWIcr__qW8cxE",
+      "id": "Ugy5XK0P9ep1VDOOUhF4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SuT7MTolwyyi8jVSytift_ibdNc",
+          "id": "Ugy5XK0P9ep1VDOOUhF4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "💜💜💜💜💜💜💜🌍",
+            "textOriginal": "💜💜💜💜💜💜💜🌍",
+            "authorDisplayName": "BTS 💜 FOREVER",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/-7mWEeSGAMLoesZTZR4Ue-oe84rap7Kgl_7sTT-BjQIS_4Qpr-B8Wl_YaWwb8u_kjAsuc4mtFA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC3lBiIb22fa4dMbuK7daoJg",
+            "authorChannelId": {
+              "value": "UC3lBiIb22fa4dMbuK7daoJg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:59:51Z",
+            "updatedAt": "2023-08-18T08:59:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "HZ9IuK_UHgJFaM9UEwhD8TnvdEY",
+      "id": "UgxfOuDfCopybD_Dp8p4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "E_Py9rYRQ3qSvuMf5ZTQ5_sxZic",
+          "id": "UgxfOuDfCopybD_Dp8p4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "자기아 정말 잘했어!👌🏼",
+            "textOriginal": "자기아 정말 잘했어!👌🏼",
+            "authorDisplayName": "Andy FeMi",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/aNKUI9sy_UGaPxZVpjLeUh74UTlQCIc8LiJJWR-EBaWGpdqnZq75baP-wPHnSUdUytlSw39O=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCQy6xQDOIuv3T7bLDBPW__Q",
+            "authorChannelId": {
+              "value": "UCQy6xQDOIuv3T7bLDBPW__Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:56:18Z",
+            "updatedAt": "2023-08-18T08:56:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jM1TRseQFqaFevqefoXRVx5JClI",
+      "id": "UgzrZvoLJiuK3gO_Yf54AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "n6SKSB-9BNzf5bus0u4LcpDk53Q",
+          "id": "UgzrZvoLJiuK3gO_Yf54AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Jk when you are comming to India",
+            "textOriginal": "Jk when you are comming to India",
+            "authorDisplayName": "Bhushan Tandan",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQuNnb3BQKjx3QI8J2T5ypVBcAqTXHH7c-fTA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCdfQ7Ugg3lfVi5SnSVGlHLA",
+            "authorChannelId": {
+              "value": "UCdfQ7Ugg3lfVi5SnSVGlHLA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:56:04Z",
+            "updatedAt": "2023-08-18T08:56:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Uo9FRduKoWcTK5uHJaHpBmOpLno",
+      "id": "UgxPIVkZYaaQI4zAb394AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7AbcqT4gkyVynDwGIW9rQJtpG4M",
+          "id": "UgxPIVkZYaaQI4zAb394AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "When we see so easy but its not easy for jk",
+            "textOriginal": "When we see so easy but its not easy for jk",
+            "authorDisplayName": "maulia hariyanti",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQepjG3JfgzeAlNhharp3sHKVTR3BsnSpDCBEyAsQZNrzjzsS2pq_5nyYkkUcIr=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC96aTc8F1YYEPIApdydQ0hw",
+            "authorChannelId": {
+              "value": "UC96aTc8F1YYEPIApdydQ0hw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:48:13Z",
+            "updatedAt": "2023-08-18T08:48:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-1le4usw7g-O06dNF-JXsfFI3oo",
+      "id": "UgwkOSe6LMggA4SQYzN4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vcdG1tevl07cOAEHCqRbVtmwoj4",
+          "id": "UgwkOSe6LMggA4SQYzN4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "❤❤ you kookie you have amazing voice 😊😊😊🐰🐰",
+            "textOriginal": "❤❤ you kookie you have amazing voice 😊😊😊🐰🐰",
+            "authorDisplayName": "Puja singh",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/EMIH2C9l9VqhFyD1SCE_IgDDMjwB0dVjo_shLU1a7Hx4jirNDLKaDKSDJHqZuLQkXR_39Obn=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCjL62ACb6-crz_ZIfM1KjDw",
+            "authorChannelId": {
+              "value": "UCjL62ACb6-crz_ZIfM1KjDw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:46:16Z",
+            "updatedAt": "2023-08-18T08:46:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5O3agPD18lLI9UdVthRkgtBX2dU",
+      "id": "Ugw7kPwH3FoXJBB4NPx4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rC3ptAkxozm7dF9Xm8Od6VNVU_E",
+          "id": "Ugw7kPwH3FoXJBB4NPx4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "You&#39;re AMAZING Rookie💜",
+            "textOriginal": "You're AMAZING Rookie💜",
+            "authorDisplayName": "Angie Rich안젤라 리처드",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/JYP3AOKt9b3vcLgdan6R96pMWvG3UmStSiEQCSWwimrVswsOm1a5-XkOVaEIbvLIxOXC3CKVSS0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCA-mpelqDBdGOqK4wF_gkuQ",
+            "authorChannelId": {
+              "value": "UCA-mpelqDBdGOqK4wF_gkuQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:45:27Z",
+            "updatedAt": "2023-08-18T08:45:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Seifg2n5bzrhLEDVbEzyJcKkzds",
+      "id": "UgyMFSd2OrUvfALJlDl4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3V6hrPhk1qgP7wskPcFBRIPUDs0",
+          "id": "UgyMFSd2OrUvfALJlDl4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "I love you jungkookiiiiii every time and always you’re in my heart babe I love you💜💜💜💜💜💜💜",
+            "textOriginal": "I love you jungkookiiiiii every time and always you’re in my heart babe I love you💜💜💜💜💜💜💜",
+            "authorDisplayName": "Hannechi Azza",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaS6fA2zh2xkU9L68-lsZ2knSQDiusIjbu4LRRb3rFKA7eo7hppjAnFcpt2f0fIy=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCAJhHNt1uAMmSaHwerp4YaQ",
+            "authorChannelId": {
+              "value": "UCAJhHNt1uAMmSaHwerp4YaQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:44:03Z",
+            "updatedAt": "2023-08-18T08:44:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "s4Y-2OtvCXukT8BXwGxaJLsVPVE",
+      "id": "UgySayk3_I1pS2MwV0V4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "h5CDIwrUl6k1-e09dtaYQqZptD8",
+          "id": "UgySayk3_I1pS2MwV0V4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "<a href=\"https://www.youtube.com/watch?v=IEu0gsn_9Yw&amp;t=0m16s\">0:16</a> <a href=\"https://www.youtube.com/watch?v=IEu0gsn_9Yw&amp;t=0m17s\">0:17</a> ❤❤❤❤❤",
+            "textOriginal": "0:16 0:17 ❤❤❤❤❤",
+            "authorDisplayName": "Vitoria Silva",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/_vXKcOQhLp7Sep7HgDUSZkN8Ape0vvWi-7NCOlnb8EfsPvEfEDdXYZmFMpQb7OLw1OtgCJZjTA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCHbdPAqpU1WBbBh3gDbB_Qg",
+            "authorChannelId": {
+              "value": "UCHbdPAqpU1WBbBh3gDbB_Qg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:42:08Z",
+            "updatedAt": "2023-08-18T08:42:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1yMLIgA3xBehkC_CJakb69eeC1s",
+      "id": "UgwL3r9fRysUr-yzPT94AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "iyhK3vf4mOav7oGwJhE2OFAbVFo",
+          "id": "UgwL3r9fRysUr-yzPT94AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "정국아 너의 매력은 진심 개쩐다❤",
+            "textOriginal": "정국아 너의 매력은 진심 개쩐다❤",
+            "authorDisplayName": "BTS일곱빛깔무지개",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSuzegcdWZLS9fw2tM0AjHP0nWaLCHUcSd-Xzbp=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCg2L8ulaBYwZqJUguDmgjPA",
+            "authorChannelId": {
+              "value": "UCg2L8ulaBYwZqJUguDmgjPA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:39:31Z",
+            "updatedAt": "2023-08-18T08:39:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-1q_khdgQQm-nXCEOQZVB0WoJX0",
+      "id": "UgwI3GfYaAgVkDYwjTx4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EAVHCMMuiRbsvVhWyBiOXJCRthY",
+          "id": "UgwI3GfYaAgVkDYwjTx4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Tão fofinho mds",
+            "textOriginal": "Tão fofinho mds",
+            "authorDisplayName": "Ana Rachel",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRALyWpYNngH-LTEEeelvopWBEDVjjdCScUDvduGjA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC1kNkxZaq624XF2l2AHhQbA",
+            "authorChannelId": {
+              "value": "UC1kNkxZaq624XF2l2AHhQbA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:31:11Z",
+            "updatedAt": "2023-08-18T08:31:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Jo5Id1yTdpRwG5twTQYV57ybXfU",
+      "id": "UgxSIpG0TbsBwaWmB3d4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7lmo15Iz5Uw--WWJlmWdb-95eGA",
+          "id": "UgxSIpG0TbsBwaWmB3d4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "You are the best jk💜",
+            "textOriginal": "You are the best jk💜",
+            "authorDisplayName": "Taniya Parveen",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRwN-9kjyKmxcODgoVRtolkdt68I3783rx8cY42xH1xYuPK3jJIhu4Y2-89NS6Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC69WiLeGWgYJT7K9cDjaAVg",
+            "authorChannelId": {
+              "value": "UC69WiLeGWgYJT7K9cDjaAVg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:30:38Z",
+            "updatedAt": "2023-08-18T08:30:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "dNGAgQ7T5OnoetJxtciAxerzq2Y",
+      "id": "Ugwz_OJ55bTWEDoTbd94AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5v0EnZJoDpA0SbAE4FxWN12QgNE",
+          "id": "Ugwz_OJ55bTWEDoTbd94AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Jk is the best ❤❤",
+            "textOriginal": "Jk is the best ❤❤",
+            "authorDisplayName": "Gege Gamal",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQFjYKcsxeG1F0R0iAnj9ZXFxNJ-rMS6mc1ZQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC0oEhncef5syRhbXSS2njaw",
+            "authorChannelId": {
+              "value": "UC0oEhncef5syRhbXSS2njaw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:27:34Z",
+            "updatedAt": "2023-08-18T08:27:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xXRpYo6clhIJPGXeSdmakzrRAWs",
+      "id": "UgyaEI24JEFdnv0o1d54AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "do6oMfp46EG5uhGLXYN6LX0ZGPc",
+          "id": "UgyaEI24JEFdnv0o1d54AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "You are best kookie bts so sweet",
+            "textOriginal": "You are best kookie bts so sweet",
+            "authorDisplayName": "all data",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/zWqZrTWKMzGSitxV2c-EXBZ52YNcH6yfpEcutioI1eV9oJ6hVk0ik6NC8NpaZ5h9vuxk1B17=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC-0iK0LFQfy5zx7Y8JEl-AQ",
+            "authorChannelId": {
+              "value": "UC-0iK0LFQfy5zx7Y8JEl-AQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:27:20Z",
+            "updatedAt": "2023-08-18T08:27:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "AFJv8BmvV3GgNyJXThkRhMJqU5g",
+      "id": "UgzypN7GdBF1Qeat-ph4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "THcFTb7LJs9zcTawbbgj3cVeL-8",
+          "id": "UgzypN7GdBF1Qeat-ph4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "BTS So Sweet🥰🥰 Jin Handsome Face Suga I like music 🎵🎵",
+            "textOriginal": "BTS So Sweet🥰🥰 Jin Handsome Face Suga I like music 🎵🎵",
+            "authorDisplayName": "all data",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/zWqZrTWKMzGSitxV2c-EXBZ52YNcH6yfpEcutioI1eV9oJ6hVk0ik6NC8NpaZ5h9vuxk1B17=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC-0iK0LFQfy5zx7Y8JEl-AQ",
+            "authorChannelId": {
+              "value": "UC-0iK0LFQfy5zx7Y8JEl-AQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:17:27Z",
+            "updatedAt": "2023-08-18T08:17:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kK-ckrsJmlb_GL5WrDiM_YjFQ50",
+      "id": "UgzOR0E3aHF3OUNEcXB4AaABAg",
+      "snippet": {
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5cmot_jZ-AcEC6_1yK1_mNXGIRE",
+          "id": "UgzOR0E3aHF3OUNEcXB4AaABAg",
+          "snippet": {
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "You are  the best JK❤❤",
+            "textOriginal": "You are  the best JK❤❤",
+            "authorDisplayName": "aba nadjet",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaS0IGaRWGDI6kzjiJY8-6SzIZjDDK6tLRR55zDw89MkCnqxwAlPcZvaU_1tV_sj=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCFFHhV34wicsSTb5C-848SA",
+            "authorChannelId": {
+              "value": "UCFFHhV34wicsSTb5C-848SA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-08-18T08:17:24Z",
+            "updatedAt": "2023-08-18T08:17:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}
