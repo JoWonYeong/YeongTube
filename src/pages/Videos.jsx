@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import VideoCard from '../components/VideoCard';
 import { useQuery } from '@tanstack/react-query';
+import { homeReq, homeFakeReq } from '../api/homeAPI';
 
 export default function Videos() {
+  // key: process.env.REACT_APP_YOUTUBE_API_KEY
   const {keyword} = useParams();
-  const { data:videos, isLoading, error } = useQuery(['videos', keyword], async()=>{
-    return fetch(`/videos/${keyword ? 'search' : 'popular'}.json`)
-    .then((res)=>res.json())
-    .then((data)=>data.items)
-  })
+  // const { data:videos, isLoading, error } = useQuery(['videos', keyword], ()=> homeReq(keyword))
+  const { data:videos, isLoading, error } = useQuery(['videos', keyword], ()=> homeFakeReq(keyword))
   console.log(videos);
   
 
@@ -21,7 +20,7 @@ export default function Videos() {
       {error && <div>에러</div>}
       {videos && (
         <ul>
-          {videos.map((item, index) => ( <VideoCard key={index} item={item} /> ))}
+          {videos.map((item, index) => ( <VideoCard key={item.id} item={item} /> ))}
         </ul>
       )}
     </>
