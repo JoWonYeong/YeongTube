@@ -4,9 +4,9 @@ import { AiFillYoutube } from 'react-icons/ai';
 import {BsSearch} from 'react-icons/bs'
 
 export default function SearchHeader() {
-  let navigate = useNavigate();
-  let { keyword } = useParams();  
-  let [search, setSearch] = useState('')
+  const navigate = useNavigate();
+  const { keyword } = useParams();  
+  const [search, setSearch] = useState('');
 
   const handleSubmit = (e)=>{
     e.preventDefault();
