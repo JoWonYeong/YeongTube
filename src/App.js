@@ -1,20 +1,27 @@
-import { Navigate, Route, Routes } from "react-router-dom";
-import SearchHeader from './components/SearchHeader'
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import DefaultPage from './pages/DefaultPage';
 import Videos from "./pages/Videos";
 import VideoDetail from './pages/VideoDetail';
 import NotFound from "./pages/NotFound";
 
 function App() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  useEffect(()=>{
+    if (location.pathname === '/') navigate('/videos');
+  }, [])
+
   return (
     // 반응형
     // https://tailwindcss.com/docs/responsive-design
-    <div className='m-auto w-full xl:w-10/12'>
-      <SearchHeader />
+    <div className=''>
       <Routes>
-        <Route path='/' element={<Navigate to='/videos' replace />} />
-        <Route path='/videos' element={<Videos />} />
-        <Route path='/videos/:keyword' element={<Videos />} />
-        <Route path='/videos/watch/:videoId' element={<VideoDetail />} />
+        <Route path='/' element={<DefaultPage />}>
+          <Route path='videos' element={<Videos />} />
+          <Route path='videos/:keyword' element={<Videos />} />
+          <Route path='videos/watch/:videoId' element={<VideoDetail />} />
+        </Route>
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </div>
