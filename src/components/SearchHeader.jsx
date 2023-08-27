@@ -16,9 +16,11 @@ export default function SearchHeader() {
   useEffect(()=>setSearch(keyword||''),[keyword])
 
   return (
-    <header className='h-14 flex items-end mb-3'>
+    <header
+      // style={{ position: 'fixed', top: 0, left: 0, right: 0 }}
+      className='fixed top-0 left-0 right-0 h-16 flex justify-center items-end pb-3 border-b-2 border-gray-200 bg-white'>
       <div
-        className='inline-block w-2/12 sm:w-1/5 sm:h-9 lg:h-10 cursor-pointer text-center'
+        className='inline-block w-1/6 sm:w-1/5 sm:h-9 lg:h-10 cursor-pointer text-center'
         onClick={() => {
           navigate('/videos');
         }}>
@@ -28,10 +30,10 @@ export default function SearchHeader() {
         </h1>
       </div>
 
-      <div className='w-10/12 sm:w-4/5 text-md lg:text-lg'>
+      <div className='w-5/6 sm:w-4/6 text-md lg:text-lg'>
         <form onSubmit={handleSubmit}>
           <input
-            className='w-10/12 h-9 rounded-lg border-solid border-2 border-grey-100 outline-none'
+            className='w-5/6 h-9 rounded-l-lg border-solid border-2 border-gray-200 outline-none'
             type='text'
             placeholder='검색어를 입력해 주세요'
             value={search}
@@ -40,8 +42,8 @@ export default function SearchHeader() {
             }}
           />
 
-          <button className='w-2/12 sm:w-14 h-9 px-4'>
-            <BsSearch />
+          <button className='align-bottom rounded-r-lg bg-gray-200 w-1/6 sm:w-14 h-9 px-4'>
+            <BsSearch className='text-info-gray' />
           </button>
         </form>
       </div>
