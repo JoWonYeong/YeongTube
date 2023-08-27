@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 #root{
-  @apply m-auto w-full xl:w-10/12
+  @apply m-auto w-full xl:w-10/12 box-border
 }
