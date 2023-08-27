@@ -1,9 +1,16 @@
-export default function VideoCard({ video, index }) {
+import { Link } from "react-router-dom";
+import decodeHTMLEntities from "../util/decodeHTMLEntities";
+
+export default function VideoCard({ video }) {  
   // 필요한 정보
   // 썸네일 : thumbnails {medium(320*180) maxres(1280*720)} - url, width, height
   // 제목 : title
   // 채널명 : channelTitle
   // 올린날짜 : publishedAt
+  const { thumbnails, title, channelTitle, publishedAt } = video.snippet;
+  const decodedTitle = decodeHTMLEntities(title);
+  const decodedChannelTitle = decodeHTMLEntities(channelTitle);
+  
 
   const calcTimeDiff = (inputTime) => {
     const currentTime = new Date();
@@ -50,16 +57,19 @@ export default function VideoCard({ video, index }) {
   };
 
   return (
-    <li
-      className={`inline-block w-full sm:aspect-[290/255] md:aspect-[232/225] lg:aspect-[232/220] xl:aspect-[197/200] 2xl:aspect-[234/225] cursor-pointer overflow-hidden `}>
-      <img src={video.thumbnails.medium.url} alt='' className='w-full rounded' />
-      <h2 className='line-clamp-2 text-base font-medium'>{video.title}</h2>
-      <div className='truncate text-info-gray text-sm'>
-        {video.channelTitle}
-      </div>
-      <time dateTime={video.publishedAt} className='text-info-gray text-sm'>
-        {calcTimeDiff(video.publishedAt)}
-      </time>
-    </li>
+    <Link to={`/videos/watch/${video.id}`}>
+      <li
+        className={`inline-block w-full sm:aspect-[290/255] md:aspect-[232/225] lg:aspect-[232/220] xl:aspect-[197/200] 2xl:aspect-[234/225] cursor-pointer overflow-hidden `}>
+        <picture>
+          <source media='(max-width: 640px)' srcSet={thumbnails.maxres?.url || thumbnails.medium.url} />
+          <img src={thumbnails.medium.url} alt='' className='w-full rounded' />
+        </picture>
+        <h2 className='line-clamp-2 text-base font-semibold'>{decodedTitle}</h2>
+        <div className='truncate text-info-gray text-sm'>{decodedChannelTitle}</div>
+        <time dateTime={publishedAt} className='text-info-gray text-sm'>
+          {calcTimeDiff(publishedAt)}
+        </time>
+      </li>
+    </Link>
   );
 }
