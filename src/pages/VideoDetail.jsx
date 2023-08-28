@@ -11,14 +11,13 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-import { getFakeVideoDetail, getVideoDetail } from "../api/videoDetailAPI";
+// import { getFakeVideoDetail, getVideoDetail } from "../api/videoDetailAPI";
+import { getFakeVideoDetail } from "../api/videoDetailAPI";
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 import ChannelInfo from "../components/ChannelInfo";
 import RelatedVideos from "../components/RelatedVideos";
 import decodeHTMLEntities from "../util/decodeHTMLEntities";
-// import {ReactComponent as Folding} from '../icon/folding.svg'
-import folding from '../icon/folding.svg'
 
 export default function VideoDetail() {
   const {videoId} = useParams();

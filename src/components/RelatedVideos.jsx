@@ -5,7 +5,7 @@ import { useQuery } from '@tanstack/react-query';
 
 export default function RelatedVideos({channelId}) {
   // 연관비디오 - 해당 채널이 올린 다른 비디오들 보여줌
-  const {data:videos, isLoading, error} = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos())
+  const {data:videos } = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos())
   // const {data:videos, isLoading, error} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId))
   
     // if (isLoading) return <Loading />;

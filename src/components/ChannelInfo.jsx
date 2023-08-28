@@ -1,10 +1,11 @@
 import React from 'react';
-import { getChannelThumbnail, getFakeChannelThumbnail } from '../api/channelAPI';
+// import { getChannelThumbnail, getFakeChannelThumbnail } from '../api/channelAPI';
+import { getFakeChannelThumbnail } from '../api/channelAPI';
 import { useQuery } from '@tanstack/react-query';
 
 export default function ChannelInfo({ channelId, name }) {
   // const { data:url, isLoading, error } = useQuery(['channels', channelId], () => getChannelThumbnail(channelId));
-  const { data:url, isLoading, error } = useQuery(['channel', channelId], () => getFakeChannelThumbnail(channelId));
+  const { data:url } = useQuery(['channel', channelId], () => getFakeChannelThumbnail(channelId));
 
   return (
     <div className='flex h-12 mt-4'>
