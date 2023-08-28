@@ -1,6 +1,7 @@
 import React from 'react';
 import RelatedVideoCard from './RelatedVideoCard';
-import { getFakeRelatedVideos, getRelatedVideos } from '../api/channelAPI';
+// import { getFakeRelatedVideos, getRelatedVideos } from '../api/channelAPI';
+import { getFakeRelatedVideos } from '../api/channelAPI';
 import { useQuery } from '@tanstack/react-query';
 
 export default function RelatedVideos({channelId}) {
