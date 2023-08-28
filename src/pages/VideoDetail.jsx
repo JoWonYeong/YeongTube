@@ -48,7 +48,7 @@ export default function VideoDetail() {
           type='text/html'
           width='100%'
           height='640'
-          src={`http://www.youtube.com/embed/${video.id}?enablejsapi=1`}
+          src={`https://www.youtube.com/embed/${video.id}?enablejsapi=1`}
         />
         <div className='w-full md:p-2'>
           <h2 className='text-xl font-semibold mt-2'>
