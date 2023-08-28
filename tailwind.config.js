@@ -8,6 +8,9 @@ module.exports = {
         'info-gray': '#606060',
       },
     },
+    backgroundImage: {
+      'folding': "url('/src/icon/folding.svg')",
+    },
   },
   plugins: [],
 };

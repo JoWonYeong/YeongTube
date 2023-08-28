@@ -11,7 +11,7 @@ export default function DefaultPage() {
     <>
       <SearchHeader />
       <QueryClientProvider client={queryClient}>
-        <div className='mt-16 '>
+        <div className='mt-16 p-4'>
           <Outlet />
         </div>
       </QueryClientProvider>

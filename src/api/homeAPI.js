@@ -1,24 +1,25 @@
 import httpClient from './APIsetting';
 import axios from 'axios';
 
-export const homeReq = async (keyword)=> {
+export const homeReq = async (keyword) => {
   return keyword? searchByKeyword(keyword) : mostPopular();
 }
 
-async function searchByKeyword(keyword) {
+const searchByKeyword = async (keyword) => {
   return httpClient
     .get('search', {
       params: {
         part: 'snippet',
         maxResults: '25',
         q: keyword,
+        type : 'video',
       },
     })
     .then((res) => res.data.items)
     .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
 }
 
-async function mostPopular() {
+const mostPopular = async () => {
   return httpClient
     .get('videos', {
       params: {
@@ -30,7 +31,7 @@ async function mostPopular() {
     .then((res) => res.data.items);
 }
 
-export const homeFakeReq = async(keyword)=>{
+export const homeFakeReq = async (keyword) => {
   return keyword? axios.get(`/videos/search.json`)
         .then((res) => res.data.items)
         .then((items) =>

@@ -16,16 +16,14 @@ export default function SearchHeader() {
   useEffect(()=>setSearch(keyword||''),[keyword])
 
   return (
-    <header
-      // style={{ position: 'fixed', top: 0, left: 0, right: 0 }}
-      className='fixed top-0 left-0 right-0 h-16 flex justify-center items-end pb-3 border-b-2 border-gray-200 bg-white'>
+    <header className='fixed top-0 left-0 right-0 h-16 flex justify-center items-end pb-3 border-b-2 border-gray-200 bg-white'>
       <div
-        className='inline-block w-1/6 sm:w-1/5 sm:h-9 lg:h-10 cursor-pointer text-center'
+        className='inline-block w-1/6 sm:w-1/5 md:w-1/6 sm:h-9 lg:h-10 cursor-pointer text-center xl:text-right xl:pr-4 2xl:pr-8'
         onClick={() => {
           navigate('/videos');
         }}>
         <AiFillYoutube className='align-bottom inline-block text-logo-red text-4xl sm:text-2xl lg:text-3xl xl:text-4xl' />
-        <h1 className='hidden font-semibold sm:inline-block sm:text-lg lg:text-3xl'>
+        <h1 className='hidden font-semibold sm:inline-block sm:text-lg lg:text-2xl'>
           YeongTube
         </h1>
       </div>
@@ -33,7 +31,7 @@ export default function SearchHeader() {
       <div className='w-5/6 sm:w-4/6 text-md lg:text-lg'>
         <form onSubmit={handleSubmit}>
           <input
-            className='w-5/6 h-9 rounded-l-lg border-solid border-2 border-gray-200 outline-none'
+            className='w-5/6 h-9 rounded-l-lg text-sm lg:text-base border-solid border-2 border-gray-200 outline-none'
             type='text'
             placeholder='검색어를 입력해 주세요'
             value={search}
