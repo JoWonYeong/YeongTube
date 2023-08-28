@@ -10,7 +10,7 @@ function App() {
   const location = useLocation();
   useEffect(()=>{
     if (location.pathname === '/') navigate('/videos');
-  }, [])
+  }, [location.pathname, navigate])
 
   return (
     // 반응형

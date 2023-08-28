@@ -59,7 +59,7 @@ export default function VideoDetail() {
             channelId={video.snippet.channelId}
             name={decodeHTMLEntities(video.snippet.channelTitle)}
           />
-          <pre className={`whitespace-pre-wrap break-all relative mt-4 text-sm lg:text-base bg-gray-200 p-2 md:p-4 rounded-lg ${descStyle}`}>
+          <pre className={`whitespace-pre-wrap break-all relative mt-4 text-sm lg:text-base bg-gray-200 p-2 md:p-4 rounded-lg ${descStyle} duration-200`}>
             <button className='absolute right-1 top-1 md:right-2 md:top-2'>
               <label htmlFor='folding' className={`inline-block w-8 h-8 cursor-pointer bg-folding bg-no-repeat bg-center ${labelStyle} duration-300`} >
                 <input type='checkbox' id='folding' aria-label="더보기 버튼" onChange={handleOpen} checked={open} className="opacity-0 w-0 h-0"/>
