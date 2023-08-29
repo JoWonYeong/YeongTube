@@ -11,18 +11,21 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-// import { getFakeVideoDetail, getVideoDetail } from "../api/videoDetailAPI";
-import { getFakeVideoDetail } from "../api/videoDetailAPI";
+// import { getFakeVideoDetail, getVideoDetail, getComment, getFakeComment } from "../api/videoDetailAPI";
+import { getVideoDetail, getComment } from "../api/videoDetailAPI";
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 import ChannelInfo from "../components/ChannelInfo";
 import RelatedVideos from "../components/RelatedVideos";
 import decodeHTMLEntities from "../util/decodeHTMLEntities";
+import Comment from "../components/Comment";
 
 export default function VideoDetail() {
   const {videoId} = useParams();
-  const {data:video, isLoading, error} = useQuery(['video', videoId],()=>getFakeVideoDetail())
-  // const {data:video, isLoading, error} = useQuery(['video', videoId],()=>getVideoDetail(videoId))
+  const { data:video, isLoading, error} = useQuery(['video', videoId],()=>getVideoDetail(videoId))
+  const { data:comments } = useQuery(['comment', videoId],()=>getComment(videoId))
+  // const {data:video, isLoading, error} = useQuery(['video', videoId],()=>getFakeVideoDetail())
+  // const {data:comments } = useQuery(['comment', videoId],()=>getFakeComment())
   const [open, setOpen] = useState(false)
   const [descStyle, setDescStyle] = useState('line-clamp-5');
   const [labelStyle, setLabelStyle] = useState('');
@@ -47,8 +50,9 @@ export default function VideoDetail() {
           id='player'
           type='text/html'
           width='100%'
-          height='640'
+          height='280px'
           src={`https://www.youtube.com/embed/${video.id}?enablejsapi=1`}
+          className="sm:h-[480px] 2xl:h-[640px]"
         />
         <div className='w-full md:p-2'>
           <h2 className='text-xl font-semibold mt-2'>
@@ -66,6 +70,13 @@ export default function VideoDetail() {
             </button>
             {video.snippet.description}
           </pre>
+          {comments && 
+            <ul className="w-full mt-6">
+              {comments.map((item, index)=>(
+                <Comment key={index} comment={item} />
+              ))}
+            </ul>
+          }
         </div>
       </article>
       <section className='w-full lg:w-4/12 '>

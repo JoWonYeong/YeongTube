@@ -16,7 +16,7 @@ export default function SearchHeader() {
   useEffect(()=>setSearch(keyword||''),[keyword])
 
   return (
-    <header className='fixed top-0 left-0 right-0 h-16 flex justify-center items-end pb-3 border-b-2 border-gray-200 bg-white'>
+    <header className='fixed top-0 left-0 right-0 h-16 flex justify-center items-end pb-3 border-b-2 border-gray-200 bg-white z-10'>
       <div
         className='inline-block w-1/6 sm:w-1/5 md:w-1/6 sm:h-9 lg:h-10 cursor-pointer text-center xl:text-right xl:pr-4 2xl:pr-8'
         onClick={() => {
