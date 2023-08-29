@@ -1,13 +1,13 @@
 import React from 'react';
-// import { getFakeRelatedVideos, getRelatedVideos } from '../api/channelAPI';
-import { getRelatedVideos } from '../api/channelAPI';
+import { getFakeRelatedVideos, getRelatedVideos } from '../api/channelAPI';
+// import { getRelatedVideos } from '../api/channelAPI';
 import { useQuery } from '@tanstack/react-query';
 import VideoCard from './VideoCard'
 
 export default function RelatedVideos({channelId}) {
   // 연관비디오 - 해당 채널이 올린 다른 비디오들 보여줌
-  // const {data:videos } = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos())
-  const {data:videos} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId))
+  const {data:videos } = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos(), {staleTime: 1000*60*5})
+  // const {data:videos} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId))
   
     // if (isLoading) return <Loading />;
     // if (error) return <Error />;

@@ -25,10 +25,13 @@ export const getComment = async(videoId) =>{
 }
 
 export const getFakeVideoDetail = async () => {
+  console.log('특정비디오 정보 호출');
+  
   return axios.get('/videos/videoInfo.json').then((res) => res.data.items[0]);
 };
 
 export const getFakeComment = async () => {
+  console.log('댓글 호출');
   return axios
     .get('/videos/comment.json')
     .then((res) => res.data.items)

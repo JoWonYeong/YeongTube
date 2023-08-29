@@ -32,6 +32,7 @@ const mostPopular = async () => {
 }
 
 export const homeFakeReq = async (keyword) => {
+  console.log('홈 호출');
   return keyword? axios.get(`/videos/search.json`)
         .then((res) => res.data.items)
         .then((items) =>

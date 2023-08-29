@@ -27,12 +27,15 @@ export const getRelatedVideos = async (channelId) => {
 };
 
 export const getFakeChannelThumbnail = async () => {
+  console.log('썸네일 호출');
+  
   return axios
     .get('/videos/channel.json')
     .then((res) => res.data.items[0].snippet.thumbnails.default.url);
 };
 
 export const getFakeRelatedVideos = async () => {
+  console.log('연관비디오 호출');
   return axios
     .get('/videos/related.json')
     .then((res) => res.data.items)
