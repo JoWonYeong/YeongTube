@@ -9,9 +9,9 @@ export default function RelatedVideos({videoId, relatedVideos}) {
       {/* 연관된 비디오 */}
       {relatedVideos && (
         <ul className='md:m-2'>
-          { relatedVideos.map((item, index) => {
-            if(videoId!==item.id) return <VideoCard key={item.id} video={item} type='list' related={true} />
-          })}
+          { relatedVideos.map((item, index) => (
+            videoId!==item.id? <VideoCard key={item.id} video={item} type='list' related={true}/> : null
+          ))}
         </ul>
       )}
     </>
