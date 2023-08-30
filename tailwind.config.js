@@ -6,10 +6,11 @@ module.exports = {
       colors: {
         'logo-red': '#ff0000',
         'info-gray': '#606060',
+        'bg-gray': '#f2f2f2',
       },
     },
     backgroundImage: {
-      'folding': "url('/src/icon/folding.svg')",
+      folding: "url('/src/icon/folding.svg')",
     },
   },
   plugins: [],

@@ -2,7 +2,6 @@ import httpClient from './APIsetting';
 import axios from 'axios';
 
 export const homeReq = async (keyword) => {
-  console.log('홈 호출');
   return keyword? searchByKeyword(keyword) : mostPopular();
 }
 

@@ -16,6 +16,8 @@ export default function VideoCard({ video, type, related }) {
       ? `flex mt-2 ${!related &&'md:my-4'}`
       : 'inline-block w-full sm:aspect-[290/255] md:aspect-[232/225] lg:aspect-[232/220] xl:aspect-[197/200] 2xl:aspect-[234/225] overflow-hidden ';
   const cardStyleDiv = type === 'list' ? `w-3/5 ${!related &&'xl:w-3/4'} p-2` : '';
+  const infoFontSize = `${related && 'text-xs sm:text-sm lg:text-xs'} ${type === 'list' && !related && 'text-xs sm:text-sm'} ${type !== 'list' && 'text-sm'}`;
+  const lineClampNum = `${related && 'line-clamp-1 sm:line-clamp-2 lg:line-clamp-1'} ${type === 'list' && !related && 'line-clamp-1 sm:line-clamp-2'} ${type !== 'list' && 'line-clamp-2'}`;
 
   return (
     <Link to={`/videos/watch/${video.id}`} state={{ channelId }}>
@@ -28,13 +30,13 @@ export default function VideoCard({ video, type, related }) {
         }
 
         <div className={`${cardStyleDiv}`}>
-          <h2 className={`line-clamp-2 text-sm md:text-base ${related && 'md:text-sm'}  font-semibold`}>
+          <h2 className={`${lineClampNum} text-sm md:text-base ${related && 'md:text-sm'}  font-semibold`}>
             {decodedTitle}
           </h2>
-          <p className='truncate text-info-gray text-sm'>
+          <p className={`truncate text-info-gray ${infoFontSize}`}>
             {decodedChannelTitle}
           </p>
-          <time dateTime={publishedAt} className='text-info-gray text-sm'>
+          <time dateTime={publishedAt} className={`text-info-gray ${infoFontSize}`}>
             {calcTimeDiff(publishedAt)}
           </time>
           { type === 'list'&& !related && <pre className="hidden lg:block mt-4 whitespace-pre-wrap break-all text-info-gray text-sm overflow-hidden">{description}</pre>}

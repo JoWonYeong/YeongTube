@@ -5,8 +5,8 @@ export default function Comment({comment}) {
   const {authorProfileImageUrl:url, authorDisplayName:name, publishedAt, textOriginal:contents} = comment;  
   
   return (
-    <li className='flex mt-4'>
-      <img src={url} alt='' className='w-12 h-12 rounded-full mr-3' />
+    <li className='flex mt-4 px-2'>
+      <img src={url} alt='' className='w-11 h-11 rounded-full mr-3' />
       <div>
         <p className='inline-block text-sm font-semibold'>{name}</p>
         <time dateTime={publishedAt} className='text-info-gray text-xs ml-2'>

@@ -2,7 +2,6 @@ import axios from "axios";
 import httpClient from "./APIsetting";
 
 export const getVideoDetail = async (videoId) => {
-  console.log('특정비디오 정보 호출');
   return httpClient
     .get('videos', {
       params: {
@@ -14,7 +13,6 @@ export const getVideoDetail = async (videoId) => {
 };
 
 export const getComment = async(videoId) =>{
-  console.log('댓글 호출');
   return httpClient
     .get('commentThreads', {
       params: {
