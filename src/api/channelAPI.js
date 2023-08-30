@@ -2,6 +2,7 @@ import axios from 'axios';
 import httpClient from './APIsetting';
 
 export const getChannelThumbnail = async (channelId) => {
+  console.log('썸네일 호출');
   return httpClient
     .get('channels', {
       params: {
@@ -13,6 +14,7 @@ export const getChannelThumbnail = async (channelId) => {
 };
 
 export const getRelatedVideos = async (channelId) => {
+  console.log('연관비디오 호출');
   return httpClient
     .get('search', {
       params: {

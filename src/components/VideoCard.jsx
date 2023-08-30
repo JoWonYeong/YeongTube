@@ -7,8 +7,8 @@ export default function VideoCard({ video, type, related }) {
   // 썸네일 : thumbnails {medium(320*180) maxres(1280*720)} - url, width, height
   // 제목 : title
   // 채널명 : channelTitle
-  // 올린날짜 : publishedAt
-  const { thumbnails, title, channelTitle, publishedAt, description } = video.snippet;
+  // 올린날짜 : publishedAt  
+  const { thumbnails, title, channelTitle, publishedAt, description, channelId } = video.snippet;
   const decodedTitle = decodeHTMLEntities(title);
   const decodedChannelTitle = decodeHTMLEntities(channelTitle);
   const cardStyleLi =
@@ -18,7 +18,7 @@ export default function VideoCard({ video, type, related }) {
   const cardStyleDiv = type === 'list' ? `w-3/5 ${!related &&'xl:w-3/4'} p-2` : '';
 
   return (
-    <Link to={`/videos/watch/${video.id}`}>
+    <Link to={`/videos/watch/${video.id}`} state={{ channelId }}>
       <li className={`${cardStyleLi}`}>
         {type === 'list' ? <img src={thumbnails.medium.url} alt='' className={`w-2/5 ${!related &&'xl:w-1/4'} rounded`} /> : 
           <picture>
