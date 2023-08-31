@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'logo-red': '#ff0000',
+        // 'logo-red': '#ff0000',
+        'logo-red':'rgb(var(--color-logo-red))',
         'info-gray': '#606060',
         'bg-gray': '#f2f2f2',
       },
