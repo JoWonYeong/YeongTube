@@ -10,7 +10,7 @@
 
 import { useLocation, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { getFakeVideoDetail,getFakeComment, getVideoDetail, getComment } from "../api/videoDetailAPI";
 import { getFakeRelatedVideos,getFakeChannelThumbnail,getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
 // import { getVideoDetail, getComment } from "../api/videoDetailAPI";
@@ -21,11 +21,13 @@ import ChannelInfo from "../components/ChannelInfo";
 import RelatedVideos from "../components/RelatedVideos";
 import decodeHTMLEntities from "../util/decodeHTMLEntities";
 import Comment from "../components/Comment";
+import { DarkModeContext } from "../context/DarkModeContext";
 
 export default function VideoDetail() {
   const { videoId } = useParams();
   const location = useLocation();
   const {channelId} = location.state;  
+  const {darkMode} = useContext(DarkModeContext)
   // const { data:video, isLoading, error} = useQuery(['video','detail', videoId],()=>getVideoDetail(videoId), {staleTime: 1000 * 60 * 5 })
   // const { data:comments } = useQuery(['comments', videoId],()=>getComment(videoId), {staleTime: 1000 * 5 })
   // const {data:relatedVideos} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId), {staleTime: 1000 * 60 *5 })
@@ -84,7 +86,7 @@ export default function VideoDetail() {
             name={decodeHTMLEntities(video.snippet.channelTitle)}
           />
           <pre
-            className={`whitespace-pre-wrap break-all relative mt-4 text-sm lg:text-base bg-bg-gray p-2 md:p-4 rounded-lg ${descStyle} duration-200`}>
+            className={`whitespace-pre-wrap break-all relative mt-4 text-sm lg:text-base ${darkMode?'bg-dark-bg-gray':'bg-bg-gray'} p-2 md:p-4 rounded-lg ${descStyle} duration-200`}>
             <button className='absolute right-2 top-1'>
               <label
                 htmlFor='folding'
@@ -101,7 +103,7 @@ export default function VideoDetail() {
             </button>
             {video.snippet.description}
           </pre>
-          <div className='bg-bg-gray rounded-lg mb-4 lg:bg-transparent'>
+          <div className={` ${darkMode?'bg-dark-bg-gray':'bg-bg-gray'} rounded-lg mb-4 lg:bg-transparent`}>
             {comments && (
               <ul className={`w-full mt-4 overflow-hidden ${commentStyle} lg:h-fit`}>
                 {comments.map((item, index) => (
@@ -109,7 +111,7 @@ export default function VideoDetail() {
                 ))}
               </ul>
             )}
-            <button className='w-full bg-gray-200 mt-4 rounded-b-lg text-base h-8 lg:hidden' onClick={()=>{setIsExpended((prev)=>!prev)}}>
+            <button className={`w-full ${darkMode?'bg-info-gray':'bg-gray-200'} mt-4 rounded-b-lg text-base h-8 lg:hidden`} onClick={()=>{setIsExpended((prev)=>!prev)}}>
               {isExpanded?'댓글 접기':'댓글 더보기'}
             </button>
           </div>

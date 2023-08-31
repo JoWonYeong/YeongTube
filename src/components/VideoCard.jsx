@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import decodeHTMLEntities from "../util/decodeHTMLEntities";
 import calcTimeDiff from "../util/calcTimeDiff";
+import { useContext } from "react";
+import { DarkModeContext } from "../context/DarkModeContext";
 
 export default function VideoCard({ video, type, related }) {  
+  const {darkMode} = useContext(DarkModeContext)
   // 필요한 정보
   // 썸네일 : thumbnails {medium(320*180) maxres(1280*720)} - url, width, height
   // 제목 : title
@@ -33,10 +36,10 @@ export default function VideoCard({ video, type, related }) {
           <h2 className={`${lineClampNum} text-sm md:text-base ${related && 'md:text-sm'}  font-semibold`}>
             {decodedTitle}
           </h2>
-          <p className={`truncate text-info-gray ${infoFontSize}`}>
+          <p className={`truncate ${darkMode?'text-dark-text-info-gray':'text-info-gray'} ${infoFontSize}`}>
             {decodedChannelTitle}
           </p>
-          <time dateTime={publishedAt} className={`text-info-gray ${infoFontSize}`}>
+          <time dateTime={publishedAt} className={`${darkMode?'text-dark-text-info-gray':'text-info-gray'} ${infoFontSize}`}>
             {calcTimeDiff(publishedAt)}
           </time>
           { type === 'list'&& !related && <pre className="hidden lg:block mt-4 whitespace-pre-wrap break-all text-info-gray text-sm overflow-hidden">{description}</pre>}

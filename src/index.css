@@ -2,12 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  :root{
-    --color-logo-red : 255 0 0
-  }
-}
-
-#root{
-  @apply m-auto w-full xl:w-10/12 box-border
-}
