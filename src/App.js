@@ -10,8 +10,6 @@ function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const {darkMode} = useContext(DarkModeContext)
-  console.log(darkMode);
-  
 
   useEffect(()=>{
     if (location.pathname === '/') navigate('/videos');

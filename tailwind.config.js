@@ -17,6 +17,8 @@ module.exports = {
     },
     backgroundImage: {
       folding: "url('/src/icon/folding.svg')",
+      sun: "url('/src/icon/sun.svg')",
+      moon: "url('/src/icon/moon.svg')",
     },
   },
   plugins: [],

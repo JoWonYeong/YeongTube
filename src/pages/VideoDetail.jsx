@@ -11,10 +11,10 @@
 import { useLocation, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { useContext, useEffect, useState } from "react";
-import { getFakeVideoDetail,getFakeComment, getVideoDetail, getComment } from "../api/videoDetailAPI";
-import { getFakeRelatedVideos,getFakeChannelThumbnail,getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
-// import { getVideoDetail, getComment } from "../api/videoDetailAPI";
-// import { getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
+// import { getFakeVideoDetail,getFakeComment, getVideoDetail, getComment } from "../api/videoDetailAPI";
+// import { getFakeRelatedVideos,getFakeChannelThumbnail,getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
+import { getVideoDetail, getComment } from "../api/videoDetailAPI";
+import { getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 import ChannelInfo from "../components/ChannelInfo";
@@ -28,14 +28,14 @@ export default function VideoDetail() {
   const location = useLocation();
   const {channelId} = location.state;  
   const {darkMode} = useContext(DarkModeContext)
-  // const { data:video, isLoading, error} = useQuery(['video','detail', videoId],()=>getVideoDetail(videoId), {staleTime: 1000 * 60 * 5 })
-  // const { data:comments } = useQuery(['comments', videoId],()=>getComment(videoId), {staleTime: 1000 * 5 })
-  // const {data:relatedVideos} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId), {staleTime: 1000 * 60 *5 })
-  // const { data:url } = useQuery(['channels', channelId], () => getChannelThumbnail(channelId),{staleTime: 1000 * 60 * 5 });
-  const { data: video, isLoading, error} = useQuery(['video', 'detail', videoId], () => getFakeVideoDetail(videoId), {staleTime: 1000 * 60 *5 });
-  const { data: comments } = useQuery(['comment', videoId], () => getFakeComment(videoId), { staleTime: 1000*5 });
-  const { data:relatedVideos } = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos(channelId), {staleTime: 1000 * 60 *5})
-  const { data:url } = useQuery(['channel', channelId], () => getFakeChannelThumbnail(channelId), {staleTime: 1000 * 60 *5});
+  const { data:video, isLoading, error} = useQuery(['video','detail', videoId],()=>getVideoDetail(videoId), {staleTime: 1000 * 60 * 5 })
+  const { data:comments } = useQuery(['comments', videoId],()=>getComment(videoId), {staleTime: 1000 * 5 })
+  const {data:relatedVideos} = useQuery(['videos', 'related', channelId], ()=>getRelatedVideos(channelId), {staleTime: 1000 * 60 *5 })
+  const { data:url } = useQuery(['channels', channelId], () => getChannelThumbnail(channelId),{staleTime: 1000 * 60 * 5 });
+  // const { data: video, isLoading, error} = useQuery(['video', 'detail', videoId], () => getFakeVideoDetail(videoId), {staleTime: 1000 * 60 *5 });
+  // const { data: comments } = useQuery(['comment', videoId], () => getFakeComment(videoId), { staleTime: 1000*5 });
+  // const { data:relatedVideos } = useQuery(['videos', 'related', channelId], ()=>getFakeRelatedVideos(channelId), {staleTime: 1000 * 60 *5})
+  // const { data:url } = useQuery(['channel', channelId], () => getFakeChannelThumbnail(channelId), {staleTime: 1000 * 60 *5});
   const [open, setOpen] = useState(false);
   const [descStyle, setDescStyle] = useState('line-clamp-5');
   const [labelStyle, setLabelStyle] = useState('');

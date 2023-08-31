@@ -1,15 +1,15 @@
 import { useParams } from 'react-router-dom';
 import VideoCard from '../components/VideoCard';
 import { useQuery } from '@tanstack/react-query';
-import { homeReq, homeFakeReq } from '../api/homeAPI';
-// import { homeReq } from '../api/homeAPI';
+// import { homeReq, homeFakeReq } from '../api/homeAPI';
+import { homeReq } from '../api/homeAPI';
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 
 export default function Videos() {
   const {keyword} = useParams();
-  // const { data:videos, isLoading, error } = useQuery(['videos', keyword], ()=> homeReq(keyword),{staleTime: 1000*60,});  
-  const { data: videos, isLoading, error } = useQuery(['videos', keyword], () => homeFakeReq(keyword),{staleTime: 1000*60,});  
+  const { data:videos, isLoading, error } = useQuery(['videos', keyword], ()=> homeReq(keyword),{staleTime: 1000*60,});  
+  // const { data: videos, isLoading, error } = useQuery(['videos', keyword], () => homeFakeReq(keyword),{staleTime: 1000*60,});  
 
   if(isLoading) return <Loading />
   if(error) return <Error />
