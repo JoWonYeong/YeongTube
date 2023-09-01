@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import VideoCard from '../components/VideoCard';
 import { useQuery } from '@tanstack/react-query';
-// import { homeReq, homeFakeReq } from '../api/homeAPI';
-import { homeReq } from '../api/homeAPI';
+import { homeReq, homeFakeReq } from '../api/homeAPI';
+// import { homeReq } from '../api/homeAPI';
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 

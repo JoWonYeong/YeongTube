@@ -20,8 +20,9 @@ export const getComment = async(videoId) =>{
         videoId: videoId,
       },
     })
+    .catch((error)=>{console.error('Axios 오류-댓글 없음', error);})
     .then((res) => res.data.items)
-    .then((items) => items.map((item) => item.snippet.topLevelComment.snippet));
+    .then((items) => items.map((item) => item.snippet.topLevelComment.snippet))
 }
 
 export const getFakeVideoDetail = async () => {

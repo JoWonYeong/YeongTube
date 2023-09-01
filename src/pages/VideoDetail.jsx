@@ -61,7 +61,6 @@ export default function VideoDetail() {
   //   };
   // }, []); // 빈 배열을 넣어 처음 마운트될 때만 실행되도록 함
   
-
   if (isLoading) return <Loading />;
   if (error) return <Error />;
 
@@ -85,7 +84,8 @@ export default function VideoDetail() {
             url={url}
             name={decodeHTMLEntities(video.snippet.channelTitle)}
           />
-          <pre
+          {video.snippet.description&&
+            <pre
             className={`whitespace-pre-wrap break-all relative mt-4 text-sm lg:text-base ${darkMode?'bg-dark-bg-gray':'bg-bg-gray'} p-2 md:p-4 rounded-lg ${descStyle} duration-200`}>
             <button className='absolute right-2 top-1'>
               <label
@@ -102,8 +102,8 @@ export default function VideoDetail() {
               </label>
             </button>
             {video.snippet.description}
-          </pre>
-          <div className={` ${darkMode?'bg-dark-bg-gray':'bg-bg-gray'} rounded-lg mb-4 lg:bg-transparent`}>
+          </pre>}
+          {comments && <div className={` ${darkMode?'bg-dark-bg-gray':'bg-bg-gray'} rounded-lg mb-4 lg:bg-transparent`}>
             {comments && (
               <ul className={`w-full mt-4 overflow-hidden ${commentStyle} lg:h-fit`}>
                 {comments.map((item, index) => (
@@ -114,7 +114,7 @@ export default function VideoDetail() {
             <button className={`w-full ${darkMode?'bg-info-gray':'bg-gray-200'} mt-4 rounded-b-lg text-base h-8 lg:hidden`} onClick={()=>{setIsExpended((prev)=>!prev)}}>
               {isExpanded?'댓글 접기':'댓글 더보기'}
             </button>
-          </div>
+          </div>}
         </div>
       </article>
       <section className='w-full lg:w-4/12 '>
