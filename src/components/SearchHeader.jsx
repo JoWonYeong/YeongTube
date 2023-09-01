@@ -48,7 +48,7 @@ export default function SearchHeader() {
         </form>
       </div>
 
-      <button className={`w-10 h-10 px-4 ${darkMode?'bg-moon':'bg-sun rotate-[180deg]'} duration-500 bg-no-repeat bg-center`} onClick={toggleDarkMode}></button>
+      <button className={`w-10 h-10 px-4 ${darkMode?'bg-moon rotate-[360deg]':'bg-sun rotate-[180deg]'} duration-500 bg-no-repeat bg-center`} onClick={toggleDarkMode}></button>
     </header>
   );
 }
