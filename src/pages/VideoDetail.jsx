@@ -18,10 +18,10 @@ import { getChannelThumbnail, getRelatedVideos } from '../api/channelAPI';
 import Loading from './../components/Loading'
 import Error from './../components/Error'
 import ChannelInfo from "../components/ChannelInfo";
-import RelatedVideos from "../components/RelatedVideos";
 import decodeHTMLEntities from "../util/decodeHTMLEntities";
 import Comment from "../components/Comment";
 import { DarkModeContext } from "../context/DarkModeContext";
+import VideoCard from './../components/VideoCard';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -118,7 +118,13 @@ export default function VideoDetail() {
         </div>
       </article>
       <section className='w-full lg:w-4/12 '>
-        <RelatedVideos videoId={videoId} relatedVideos={relatedVideos} />
+        {relatedVideos && (
+        <ul className='md:m-2'>
+          { relatedVideos.map((item, index) => (
+            videoId!==item.id? <VideoCard key={item.id} video={item} type='list' related={true}/> : null
+          ))}
+        </ul>
+      )}
       </section>
     </section>
   );
