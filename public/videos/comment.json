@@ -1,7 +1,7 @@
 {
   "kind": "youtube#commentThreadListResponse",
-  "etag": "4s8FueNfNjzpstynt6whU1eKLbU",
-  "nextPageToken": "QURTSl9pMVdGTjhfVzlJMzdyYWZubm1sS00wS3JaTDRXdko3RU04bnNrMU9DWUtUZ05qZVBnSWE3c2N4MHh2OWNWbzdVNTdSUDVNeTZjMA==",
+  "etag": "9R2GFfkB3D8StTsJ_U6LGy-NKtI",
+  "nextPageToken": "QURTSl9pMkpFelNINU1mX1Y5bm83RFNseUJMejJnVGFzLV82UEVwaTVKS0N6cGZzZFljYWJzdUxISXFHdHBWV2tlc1BFTXdwcF9waG1pVQ==",
   "pageInfo": {
     "totalResults": 20,
     "resultsPerPage": 20
@@ -9,31 +9,31 @@
   "items": [
     {
       "kind": "youtube#commentThread",
-      "etag": "t6isPcvmTk_ZOtT0VFAKDdi8CoU",
-      "id": "Ugwo0sI8BQ5v7cw_vax4AaABAg",
+      "etag": "qER93OSUjafjEAe0kozqkiArnR8",
+      "id": "Ugy13X1l5TII5td1BZl4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "BuD1olxnSmL95IDO8ADXdUOlvko",
-          "id": "Ugwo0sI8BQ5v7cw_vax4AaABAg",
+          "etag": "co30sFRatrCpyYYmbRtcQEoC5fw",
+          "id": "Ugy13X1l5TII5td1BZl4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "ㅋㅋㅋㅋ",
-            "textOriginal": "ㅋㅋㅋㅋ",
-            "authorDisplayName": "송",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSlJYZhpt7kKF4PzeAG8yF-yKqsis47rGlc78BE-g=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UChQ-WmjXSGgerpYIVhPHkjA",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Yes  pls",
+            "textOriginal": "Yes  pls",
+            "authorDisplayName": "Daisy Fitzgerald",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaScZQlzEpp6ZgplknmrzC94wnhaREkFEKgkFA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCT1LHFdssJkgkEdvEo6DJZg",
             "authorChannelId": {
-              "value": "UChQ-WmjXSGgerpYIVhPHkjA"
+              "value": "UCT1LHFdssJkgkEdvEo6DJZg"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-29T09:01:34Z",
-            "updatedAt": "2023-08-29T09:01:34Z"
+            "publishedAt": "2023-09-04T11:21:53Z",
+            "updatedAt": "2023-09-04T11:21:53Z"
           }
         },
         "canReply": true,
@@ -43,31 +43,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "wjSGAxyDDsmDdGx8X9h758uaZcw",
-      "id": "UgwmqLlI9LWZOAAOlAB4AaABAg",
+      "etag": "2JnagER5pxJ7yvfEaCmiBdMpS3U",
+      "id": "Ugw3G8142JDChBIsvtt4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "ApjQHqwQstGo-6b-igg-0vS4thI",
-          "id": "UgwmqLlI9LWZOAAOlAB4AaABAg",
+          "etag": "Flz5XVHrA3KHbzfCNMv3KhfoRd0",
+          "id": "Ugw3G8142JDChBIsvtt4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "ㅋㅋㅋㅋㅋㅋㅋ루태님 계속 춤추시는거ㅋㅋㅋㅋㅋㅋㅋ",
-            "textOriginal": "ㅋㅋㅋㅋㅋㅋㅋ루태님 계속 춤추시는거ㅋㅋㅋㅋㅋㅋㅋ",
-            "authorDisplayName": "만듀",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/XFpF4kL8iruHQjrlqaiwGQMRLHxL9k50gwturNHFUAW2Q3odeEhOp-KadsMckNgBWgSp8-tKrwQ=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCX9AmRCiSliufGyaetf95bw",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Handsome man",
+            "textOriginal": "Handsome man",
+            "authorDisplayName": "Diana _DarlingSunSet",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaStfMIjY7X_m01GDQQL4Fp-kYsVn3tDF4tFRw_fLw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCAYSf1eRhb4ieu5h6enpjfg",
             "authorChannelId": {
-              "value": "UCX9AmRCiSliufGyaetf95bw"
+              "value": "UCAYSf1eRhb4ieu5h6enpjfg"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-29T08:25:42Z",
-            "updatedAt": "2023-08-29T08:25:42Z"
+            "publishedAt": "2023-09-04T05:28:27Z",
+            "updatedAt": "2023-09-04T05:28:27Z"
           }
         },
         "canReply": true,
@@ -77,65 +77,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "CCKopcMdMQuPpCsxQqiIvpkr1gg",
-      "id": "UgxSQ0Kugs33uxXKPnV4AaABAg",
+      "etag": "drNpPLxGNv7iIUuAQk3fvIiiiHM",
+      "id": "Ugxtkz3yNZPEB2mKCox4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "kuZ1VqCznduLTMoJQKbFJJSM3dA",
-          "id": "UgxSQ0Kugs33uxXKPnV4AaABAg",
+          "etag": "hk5YTghTrVK7ubTdSStNGbCPrc4",
+          "id": "Ugxtkz3yNZPEB2mKCox4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "예전에 기흥쪽에 숙소 잡고 놀면서 배달안돼서 여긴 뭐야?? 했는데 다른 분들은 걱정안됐는데 삼식이사간다니깐 정말 굶어죽을까봐 걱정함 ㅋㅋㅋㅠㅋ",
-            "textOriginal": "예전에 기흥쪽에 숙소 잡고 놀면서 배달안돼서 여긴 뭐야?? 했는데 다른 분들은 걱정안됐는데 삼식이사간다니깐 정말 굶어죽을까봐 걱정함 ㅋㅋㅋㅠㅋ",
-            "authorDisplayName": "띵육수",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/QLowrmn9eKVSvvQnQKD3jk9Waoh0JtTyg25foijarbhvvSKEboMgOxhS5mdR2GQp5H0EGeJw=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UC3KT4M-1hDnaJiLz9OtI81A",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Those dancers are fricken AMAZINNNNNNG!!!!",
+            "textOriginal": "Those dancers are fricken AMAZINNNNNNG!!!!",
+            "authorDisplayName": "Savage",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/j75uEwn7we2GVlXrDi3mNUz6UNkbQj37lVKFeShezZ-SmkYAYyJkvUyiZxtFGlzJUm3ZQSey=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCb4cVkkI2Ra5yxQlgeJ4thA",
             "authorChannelId": {
-              "value": "UC3KT4M-1hDnaJiLz9OtI81A"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 1,
-            "publishedAt": "2023-08-29T08:20:37Z",
-            "updatedAt": "2023-08-29T08:20:37Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "yHlll0em_7jPlmbXf_N4x5Pl8js",
-      "id": "UgztK1_rvP_-BwmUKjh4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "lfFBweDiKgitvF-zY2HAyS4-Lsk",
-          "id": "UgztK1_rvP_-BwmUKjh4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "삼나님 부활",
-            "textOriginal": "삼나님 부활",
-            "authorDisplayName": "로니",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/TWrMN7khKJg4_sW-QabR8-sMxa2Z7n4Z7Z6nnOLBMfKrH2e5Kzs_xHckn7_vpcDzI2q-8AhYIQ=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCGzIY0lcfqLldPtJ5KhDHwA",
-            "authorChannelId": {
-              "value": "UCGzIY0lcfqLldPtJ5KhDHwA"
+              "value": "UCb4cVkkI2Ra5yxQlgeJ4thA"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-29T08:02:40Z",
-            "updatedAt": "2023-08-29T08:02:40Z"
+            "publishedAt": "2023-09-04T01:15:41Z",
+            "updatedAt": "2023-09-04T01:15:41Z"
           }
         },
         "canReply": true,
@@ -145,65 +111,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "uiV3LH9183dW-O-E__OfPLTdSts",
-      "id": "UgxZ1222-1C-YKhTEmx4AaABAg",
+      "etag": "LcxCrWs4c9XBm3aDCESJM06TEiY",
+      "id": "UgwDnFIs-oGv7Si26uN4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "EcX99t4Zj-b75tCfsE06GbQwHdM",
-          "id": "UgxZ1222-1C-YKhTEmx4AaABAg",
+          "etag": "5odvfLZG8UP5ionEDItJGFgW0RE",
+          "id": "UgwDnFIs-oGv7Si26uN4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "밀키트 어떤 사이트에서 사야하는거야!!! 😢 알려주세요 양명!!",
-            "textOriginal": "밀키트 어떤 사이트에서 사야하는거야!!! 😢 알려주세요 양명!!",
-            "authorDisplayName": "장미인데용",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/FzmJJboNCen3tWspO2ewhWIr4N16WAy4gjVsbuxpYD7ljBimwPVA_dUBY9hMbH7fIA-a5qPxVw=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCXg_IGMXgBelQ4enK9LGGUg",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "🥺am crying. I love u all always 😢❤",
+            "textOriginal": "🥺am crying. I love u all always 😢❤",
+            "authorDisplayName": "Juju Hodge",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaT0kfFI45zrABSI1u4q65zOMqMhlvY7CGnGnGMb5LQGk9jJO20WQPtE32UmzKZ6=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC3YyHmbYIox2-ZdJY27HK7Q",
             "authorChannelId": {
-              "value": "UCXg_IGMXgBelQ4enK9LGGUg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 1,
-            "publishedAt": "2023-08-29T07:37:41Z",
-            "updatedAt": "2023-08-29T07:37:41Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "jHzgfj9Q6Tfc3iNRhbD4F6N6ee4",
-      "id": "UgwJqB5M1n93wsZxCbF4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "iFMFQal6fXqI7ks2OhJLWpNoti4",
-          "id": "UgwJqB5M1n93wsZxCbF4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "얼마전 자취 시작한 자취 병아리…. 배달만 시켜먹고 있다.. 진짜 밥이 제일 고민임 ㅠ 집이 좁아서 해먹기도 힘들고 하…",
-            "textOriginal": "얼마전 자취 시작한 자취 병아리…. 배달만 시켜먹고 있다.. 진짜 밥이 제일 고민임 ㅠ 집이 좁아서 해먹기도 힘들고 하…",
-            "authorDisplayName": "나비",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/EaHOep_PJsN-7h7i_bzA7ZtMHH0dbZjS_GIotqix39yRilk6Ylf2hzKoldkFuUuW8CcJAObTZDI=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCneJy2j-LX7NWNdN8g8SUJw",
-            "authorChannelId": {
-              "value": "UCneJy2j-LX7NWNdN8g8SUJw"
+              "value": "UC3YyHmbYIox2-ZdJY27HK7Q"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-29T07:33:01Z",
-            "updatedAt": "2023-08-29T07:33:01Z"
+            "publishedAt": "2023-09-03T07:27:25Z",
+            "updatedAt": "2023-09-03T07:27:25Z"
           }
         },
         "canReply": true,
@@ -213,133 +145,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "85F8vPyI-d3oW4VCbJ3surND9sk",
-      "id": "UgzUVdesrIpjAMeezsd4AaABAg",
+      "etag": "x8DNeSX-vVFpzPWKrGY3f1NgIVQ",
+      "id": "UgyoETq9B1nQahLdWFN4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "rMQjniVbymDuXi0LIHaD0_c_p_s",
-          "id": "UgzUVdesrIpjAMeezsd4AaABAg",
+          "etag": "KSqUmL0NaL59bprnXeYdrbJHILs",
+          "id": "UgyoETq9B1nQahLdWFN4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "아 서넹 마지막 어쩔티비 개구ㅏ엽네😊",
-            "textOriginal": "아 서넹 마지막 어쩔티비 개구ㅏ엽네😊",
-            "authorDisplayName": "빵",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/qDNw77Cqx14tOVmjqnwzIvXqF4_nA1eN0kqaJhhnELeMRu5EtXuph69Oz-kNnLs2rfUO3k2h6Vw=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCV-IoNN6z9zqEK5fcz1_fzQ",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkikkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+            "textOriginal": "Jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkikkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+            "authorDisplayName": "zunairasif",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/RolBlk9cDyHQe5yklHJ9hT6WAG5e5VKHFc_WrogqWpWgOy2cYPdHVAH4ynorVbfiR3vUXa1n0rc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCkQQxxBDld-6J2rc5HRefEw",
             "authorChannelId": {
-              "value": "UCV-IoNN6z9zqEK5fcz1_fzQ"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 5,
-            "publishedAt": "2023-08-29T07:20:52Z",
-            "updatedAt": "2023-08-29T07:20:52Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 1,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "oqjz90GTH64BNSoZEXCajNHX1f4",
-      "id": "Ugyzs8h5OOnp2yG0fU94AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "6RnJPOxYFl-jQSmTE2d6hmlNbVs",
-          "id": "Ugyzs8h5OOnp2yG0fU94AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "<a href=\"https://www.youtube.com/watch?v=qq7b7tPtTLg&amp;t=1m48s\">1:48</a> 루루태 뭐하냐고 숭해",
-            "textOriginal": "1:48 루루태 뭐하냐고 숭해",
-            "authorDisplayName": "R이레",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRDij0lOz9NQG9ZvpKH0Ply8P_xYfzPEv8AKtFUxA=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCCC2TWjBQ6tOmP1_33jYECA",
-            "authorChannelId": {
-              "value": "UCCC2TWjBQ6tOmP1_33jYECA"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 4,
-            "publishedAt": "2023-08-29T07:14:22Z",
-            "updatedAt": "2023-08-29T07:14:22Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "pL5RAEJVJvk_EktYu96zUG7TMPw",
-      "id": "Ugzy8lE2YlSDBna84ml4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "s70u_1CsF_D8S83la4icP73XxxE",
-          "id": "Ugzy8lE2YlSDBna84ml4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "밀키트 드시려면 마켓컬리 자주 이용해보세요! 마켓컬리에 밀키트 종류 정말 많고 맛집들의 밀키트도 많아서 좋아요! 이연복 쉐프의 목란있죠. 그 목란에서 만든 짜장 짬뽕 밀키트가 있는데 진짜 맛있어요 제발 드셔보세요!!",
-            "textOriginal": "밀키트 드시려면 마켓컬리 자주 이용해보세요! 마켓컬리에 밀키트 종류 정말 많고 맛집들의 밀키트도 많아서 좋아요! 이연복 쉐프의 목란있죠. 그 목란에서 만든 짜장 짬뽕 밀키트가 있는데 진짜 맛있어요 제발 드셔보세요!!",
-            "authorDisplayName": "꺄르륵",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaR6RdvnWfGHATd4eyONBIzACuvTiQqOG6OuATCVtg=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCHcCJqUofpEFZVigQ2dsEnA",
-            "authorChannelId": {
-              "value": "UCHcCJqUofpEFZVigQ2dsEnA"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 1,
-            "publishedAt": "2023-08-28T22:17:21Z",
-            "updatedAt": "2023-08-28T22:17:21Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "Y0XVxg71gr_7uAIzgOlgGdLcjTc",
-      "id": "UgwanSVmOz1s9iXtqpp4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "Qo4KIM4vWOCQEaYUgihG7OwDFTo",
-          "id": "UgwanSVmOz1s9iXtqpp4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "짜장 짬뽕 밀키트 특<br>소스가 맛있으면 면이 맛이 없고<br>면이 맛있으면 소스가 맛이 없고",
-            "textOriginal": "짜장 짬뽕 밀키트 특\n소스가 맛있으면 면이 맛이 없고\n면이 맛있으면 소스가 맛이 없고",
-            "authorDisplayName": "ㅈl니",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRopcFCTV_2i1Sjva-6hO4ncRmQS24TGzax7yoETz3B1g=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCa1a5EaAZAerJUoRw_peq2Q",
-            "authorChannelId": {
-              "value": "UCa1a5EaAZAerJUoRw_peq2Q"
+              "value": "UCkQQxxBDld-6J2rc5HRefEw"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-28T05:24:52Z",
-            "updatedAt": "2023-08-28T05:24:52Z"
+            "publishedAt": "2023-09-03T05:51:28Z",
+            "updatedAt": "2023-09-03T05:51:28Z"
           }
         },
         "canReply": true,
@@ -349,167 +179,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "TqUhcBodP3Q_GG2Ixgh8iDNWwuM",
-      "id": "Ugwi0-28_Q_RVm8PHKp4AaABAg",
+      "etag": "WuLumRdO5cjjegaIwPpSW5KeuaU",
+      "id": "UgxyWJQKnw_QsXW0AW54AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "LY6qDqV2Et-2JMhHzFjf-UEI8yU",
-          "id": "Ugwi0-28_Q_RVm8PHKp4AaABAg",
+          "etag": "T_ghJpRRS---l3nanGeTbj_dBmQ",
+          "id": "UgxyWJQKnw_QsXW0AW54AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-            "textOriginal": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-            "authorDisplayName": "동글동글대굴대굴굴러가요",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/4gEv74Osyqi0WL1PGC5jPGMM0qzYU375tAhHuy0IRRj0N36RKeh1O-dBPg_HM90auYuI_Kv7=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCU42LWVO0JN7HkfKYZ1SEkg",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Jungkook 💜🖤❤️❤️❤️❤️",
+            "textOriginal": "Jungkook 💜🖤❤️❤️❤️❤️",
+            "authorDisplayName": "Sarah cat bts",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/KcaXOuAhRX3FFPUpeAaLjMva-uz2l9qapDcr8D5CzieBBslU6ZXj7taP0CgswStLicch6v5PDw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCGP_R4HnbOJqyDlNT9ycEeQ",
             "authorChannelId": {
-              "value": "UCU42LWVO0JN7HkfKYZ1SEkg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 0,
-            "publishedAt": "2023-08-28T05:07:42Z",
-            "updatedAt": "2023-08-28T05:07:42Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "VVhdKwTENJuKzCUSmw9xucFTMAE",
-      "id": "UgzRn0tthR5exorPjJR4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "WJ8tMxwnOvzv9KtXoglKatnp4jc",
-          "id": "UgzRn0tthR5exorPjJR4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "무슨 밀키트 사먹으실까….궁금…..",
-            "textOriginal": "무슨 밀키트 사먹으실까….궁금…..",
-            "authorDisplayName": "체리걸",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaTQj_a9tpPfb02fwgEeBUZ7nfj9msyPsXI9AzSpMg=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCjVsgWguJt0JvmskhTCDkSQ",
-            "authorChannelId": {
-              "value": "UCjVsgWguJt0JvmskhTCDkSQ"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 3,
-            "publishedAt": "2023-08-27T18:28:36Z",
-            "updatedAt": "2023-08-27T18:28:36Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "eh38EzVxaGWmz62Ch9GdU6BsXkc",
-      "id": "UgySMXYtPR8gI38Tj_B4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "yZIBqzXALTuaSwqAjJUSrYwF84w",
-          "id": "UgySMXYtPR8gI38Tj_B4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "밀키트 ㄹㅇ 좋음 밀푀유나베 쌓아놓고 먹는데 ㄹㅇ 간편하고 맛도좋아서 좋음",
-            "textOriginal": "밀키트 ㄹㅇ 좋음 밀푀유나베 쌓아놓고 먹는데 ㄹㅇ 간편하고 맛도좋아서 좋음",
-            "authorDisplayName": "에베베베베벶",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/SesLvziRnqxC47lmJksYO-KV_m1NWDZH2RlZ7hbWJ4wXJZk9N9f74CQRZYLgKHEOIJfyFjWbB1E=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCWIDgy33byvkK1SBvAEr8Cg",
-            "authorChannelId": {
-              "value": "UCWIDgy33byvkK1SBvAEr8Cg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 4,
-            "publishedAt": "2023-08-27T17:20:57Z",
-            "updatedAt": "2023-08-27T17:20:57Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 1,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "44JaBEYpXwYiSc8phKgmiFDxzrE",
-      "id": "UgwWpTbZsMRntc0S_n14AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "nLVfOXQQ_SoVSR_u_KhLXISubJc",
-          "id": "UgwWpTbZsMRntc0S_n14AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  <br>그 냉면 밀키트... 저도 궁금하군요",
-            "textOriginal": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  \n그 냉면 밀키트... 저도 궁금하군요",
-            "authorDisplayName": "에베베베베벶",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/SesLvziRnqxC47lmJksYO-KV_m1NWDZH2RlZ7hbWJ4wXJZk9N9f74CQRZYLgKHEOIJfyFjWbB1E=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCWIDgy33byvkK1SBvAEr8Cg",
-            "authorChannelId": {
-              "value": "UCWIDgy33byvkK1SBvAEr8Cg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 1,
-            "publishedAt": "2023-08-27T17:20:06Z",
-            "updatedAt": "2023-08-27T17:20:06Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "BL-xRwbPC77z2IR21QZHLFtUbwQ",
-      "id": "UgxXOhJ5fv3QV0IhF0F4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "lXJaxYN3xlEPbQkqvegYERkv29M",
-          "id": "UgxXOhJ5fv3QV0IhF0F4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "ㅅㄴㄴ ㅇㅅㄴㄷ~",
-            "textOriginal": "ㅅㄴㄴ ㅇㅅㄴㄷ~",
-            "authorDisplayName": "수현",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQDtSddPIh-401tRXx9NUd9EC1llCp1_6la7JM4apl7td2iJ2eHd4CWGDqqd_xJHcIAmDo=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCVRT7epXx3uiO6jssRAATRA",
-            "authorChannelId": {
-              "value": "UCVRT7epXx3uiO6jssRAATRA"
+              "value": "UCGP_R4HnbOJqyDlNT9ycEeQ"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 2,
-            "publishedAt": "2023-08-27T17:00:19Z",
-            "updatedAt": "2023-08-27T17:00:19Z"
+            "publishedAt": "2023-09-02T19:35:53Z",
+            "updatedAt": "2023-09-02T19:35:53Z"
           }
         },
         "canReply": true,
@@ -519,31 +213,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "uNdLT781nHeQw6AloslJvzcUkJ4",
-      "id": "Ugzbp6EB-9jzbCTEGo14AaABAg",
+      "etag": "WImAo6Z2PskyV77ODG3K5ho9jqI",
+      "id": "UgzQzhN9i-0Y1k7ACn54AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "t5D0RZ3hKBH_aZjzaDKS1vjCMfo",
-          "id": "Ugzbp6EB-9jzbCTEGo14AaABAg",
+          "etag": "xWCAaGCBdT6XjOhhbVDK0yVcmpk",
+          "id": "UgzQzhN9i-0Y1k7ACn54AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "제발 밀키트 정보 공유 좀 해줘 맛잘알 양명",
-            "textOriginal": "제발 밀키트 정보 공유 좀 해줘 맛잘알 양명",
-            "authorDisplayName": "쑤리얼",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/9rnrMzpH4bASq4YdBlCXYpLkvx2vyfjQaWYMPKv92GAJB3VumDgQra2CeLdrrtKQaUzK4ds9pg=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCFjVzOMCrT0QNyYV5755fMA",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "L love you jk 💜",
+            "textOriginal": "L love you jk 💜",
+            "authorDisplayName": "♥︎𝑳𝑰𝑺𝑨♥︎",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/zgFlPjnYv93-Pe3W8Suxb2okRNWHmi6wBh62IOVx1fBEBogiaNK18mWA6lXD_pEoL_dAUeibjQg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCDN2TyDW1Df7phD72CFnTkA",
             "authorChannelId": {
-              "value": "UCFjVzOMCrT0QNyYV5755fMA"
+              "value": "UCDN2TyDW1Df7phD72CFnTkA"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 1,
-            "publishedAt": "2023-08-27T15:35:26Z",
-            "updatedAt": "2023-08-27T15:35:26Z"
+            "publishedAt": "2023-09-02T18:25:46Z",
+            "updatedAt": "2023-09-02T18:25:46Z"
           }
         },
         "canReply": true,
@@ -553,65 +247,31 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "d1O6ms4yAp4s5_QfR51SCeqY7tU",
-      "id": "Ugx7AqUsj3W-9mRkjl94AaABAg",
+      "etag": "6x3zkKA6-K_RY9jP5wXeV5sZGM8",
+      "id": "UgxkOaRJJ_3Qx7DA6uR4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "7uJTqX7Ze3NdDzRIpwvGoCN_bHk",
-          "id": "Ugx7AqUsj3W-9mRkjl94AaABAg",
+          "etag": "xe6TrNYRm30IoidGR3kR00hWFNE",
+          "id": "UgxkOaRJJ_3Qx7DA6uR4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "기흥 맛집 많은데 ㅜㅜㅜ 직접 배달해서라도 먹게해주고 싶음 😭",
-            "textOriginal": "기흥 맛집 많은데 ㅜㅜㅜ 직접 배달해서라도 먹게해주고 싶음 😭",
-            "authorDisplayName": "이원일",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRJ-O9x1m3Rgyz-W5zKVyK6PeKGKmHxkCXm1b8=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCb3sxpWOAgGBHscdKw0zCDg",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "He is really hard working and kind 🥺",
+            "textOriginal": "He is really hard working and kind 🥺",
+            "authorDisplayName": "Sou Smith",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaR7slRaSlp0txmBiHj2qIX0H_jPRU2APxlJFJFZ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCSpfQYt4jfoHPUdSlA_qULg",
             "authorChannelId": {
-              "value": "UCb3sxpWOAgGBHscdKw0zCDg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 4,
-            "publishedAt": "2023-08-27T14:45:21Z",
-            "updatedAt": "2023-08-27T14:45:21Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 1,
-        "isPublic": true
-      }
-    },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "lP2KJednUYo97pgMw3l5-dQPNCU",
-      "id": "UgwRE4PWMHnq3OeTzLh4AaABAg",
-      "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "Xr65cDOkCvIPlooil70Myc-W4Cc",
-          "id": "UgwRE4PWMHnq3OeTzLh4AaABAg",
-          "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "조개 칼국수집에서 알바햇엇는데 우린 육수로 한번씻엇는데",
-            "textOriginal": "조개 칼국수집에서 알바햇엇는데 우린 육수로 한번씻엇는데",
-            "authorDisplayName": "sou",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/Xp3A33aML-s8ewF4_iwEYjR0N87HlWM9tQRFLQQYqIXBq2sPb8wU8xvqRENpGtxpioqAS0KXMg=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCztrZHYh7u29E7Up7NtDc-g",
-            "authorChannelId": {
-              "value": "UCztrZHYh7u29E7Up7NtDc-g"
+              "value": "UCSpfQYt4jfoHPUdSlA_qULg"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 0,
-            "publishedAt": "2023-08-27T14:42:25Z",
-            "updatedAt": "2023-08-27T14:42:25Z"
+            "publishedAt": "2023-09-02T18:18:42Z",
+            "updatedAt": "2023-09-02T18:18:42Z"
           }
         },
         "canReply": true,
@@ -621,65 +281,405 @@
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "w42AD8BB40cim8tmnm19ABRsCJI",
-      "id": "UgwyvDO2YCzIicsIu3d4AaABAg",
+      "etag": "JAIgV2X3WtoMSepfZAyhpCQ5Rrc",
+      "id": "UgwVXKHbivK9vrlwRVF4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "b9F0MPoGLx0KUTeUapwnUC5isuM",
-          "id": "UgwyvDO2YCzIicsIu3d4AaABAg",
+          "etag": "Z75eM7KXCqQQOTfKYKtMYVsLetg",
+          "id": "UgwVXKHbivK9vrlwRVF4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "영상에 삼식 나와서 다들 다시 왔다고 하는 줄 알았는데 진짜 1박2일 갔다왔네 ㅋㅋ 이럴 줄은..<a href=\"about:invalid#zCSafez\"></a><a href=\"about:invalid#zCSafez\"></a> ㅈㄴ웃기다 그냥",
-            "textOriginal": "영상에 삼식 나와서 다들 다시 왔다고 하는 줄 알았는데 진짜 1박2일 갔다왔네 ㅋㅋ 이럴 줄은.. ㅈㄴ웃기다 그냥",
-            "authorDisplayName": "ᄅ",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSi8lKO_L_zVrnb8WOYf4iwMp2bSOfpluD9HewrLBE=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCJ4RfV-m3OY3JQR6oRIletw",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "The pout whenever he is disappointed or dissatisfied 🤣💜",
+            "textOriginal": "The pout whenever he is disappointed or dissatisfied 🤣💜",
+            "authorDisplayName": "Latika Joshi",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQATzBAQw9-UM_pLwkehj-ksXPdoYyo1OAAsfiV0A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC4nd0OyMSHJowNzVvznksMQ",
             "authorChannelId": {
-              "value": "UCJ4RfV-m3OY3JQR6oRIletw"
+              "value": "UC4nd0OyMSHJowNzVvznksMQ"
             },
             "canRate": true,
             "viewerRating": "none",
-            "likeCount": 37,
-            "publishedAt": "2023-08-27T14:17:20Z",
-            "updatedAt": "2023-08-27T14:27:12Z"
+            "likeCount": 1,
+            "publishedAt": "2023-09-02T16:17:40Z",
+            "updatedAt": "2023-09-02T16:17:40Z"
           }
         },
         "canReply": true,
-        "totalReplyCount": 1,
+        "totalReplyCount": 0,
         "isPublic": true
       }
     },
     {
       "kind": "youtube#commentThread",
-      "etag": "o4aJrK8_Pwufpi2KDsAsN5tUiLM",
-      "id": "Ugw_im-ssg64uJOjCJ54AaABAg",
+      "etag": "P3MfgoyTqSrKrCl9JgpoWkoWZlY",
+      "id": "Ugz4kl4Ael--NU28uHZ4AaABAg",
       "snippet": {
-        "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-        "videoId": "qq7b7tPtTLg",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
         "topLevelComment": {
           "kind": "youtube#comment",
-          "etag": "HF3tsFPx8CtgieamPMNMnmHnBhQ",
-          "id": "Ugw_im-ssg64uJOjCJ54AaABAg",
+          "etag": "UuUbX2elDVmusiHx7CSze3iQcrM",
+          "id": "Ugz4kl4Ael--NU28uHZ4AaABAg",
           "snippet": {
-            "channelId": "UCYooECrv-fIXlPaDwEIaveA",
-            "videoId": "qq7b7tPtTLg",
-            "textDisplay": "그 와중에 루태 춤추는 거 시강..",
-            "textOriginal": "그 와중에 루태 춤추는 거 시강..",
-            "authorDisplayName": "오둥이",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaTt-8fyNDeGfYqo3mmwfRKE0uUdvn4l7CYH8J-OJQ=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCFLcTA5Z2Olp37YaOeZ3qpQ",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Attention army&#39;s let&#39;s make more views than other kpop groups because bts is loosing views many new kpop groups have more than bts and army&#39;s are leaving bts and haters are showing her little bit power so please real army&#39;s don&#39;t leave bts and let&#39;s make more views together and show the power of bts and army&#39;s LET&#39;S  GO 💜 💜💜💜💜💜💜💜💜💜",
+            "textOriginal": "Attention army's let's make more views than other kpop groups because bts is loosing views many new kpop groups have more than bts and army's are leaving bts and haters are showing her little bit power so please real army's don't leave bts and let's make more views together and show the power of bts and army's LET'S  GO 💜 💜💜💜💜💜💜💜💜💜",
+            "authorDisplayName": "Samra Tabrez",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSo4mnW5ZSJeddYv3QAg0uRKm9sLFW-cTyRqPXrIu4W4ZmgP5B5F2M7wmfo0qd5=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCqWxgXRFhMK36v8C5nr0FHg",
             "authorChannelId": {
-              "value": "UCFLcTA5Z2Olp37YaOeZ3qpQ"
+              "value": "UCqWxgXRFhMK36v8C5nr0FHg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-09-02T10:28:53Z",
+            "updatedAt": "2023-09-02T10:28:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jVhqmDkhmz8QN9k6Yh9C_6fZCRY",
+      "id": "UgysEzUBOii6z39zKkV4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "uW1UDNJ3p8de9FnNmyVuIdLWHc0",
+          "id": "UgysEzUBOii6z39zKkV4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "the perfectness and charisma be oozing out of this man. i can’t stop admiring 😩🫶🏼",
+            "textOriginal": "the perfectness and charisma be oozing out of this man. i can’t stop admiring 😩🫶🏼",
+            "authorDisplayName": "riri",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/WeCfVjRf8xzfbZDaBb-bUXVjdrSA_0tFRONXkVUkHlPubemew3luuSiR0Ps90UM1CTC4qVlm=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCStETtqan2fgqyEQ3X-YmAw",
+            "authorChannelId": {
+              "value": "UCStETtqan2fgqyEQ3X-YmAw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-09-02T04:13:20Z",
+            "updatedAt": "2023-09-02T04:13:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "rIiJ0yvFssg7DJB_02Z7OuMsNLQ",
+      "id": "UgxjyDYJ6YHtZofptuJ4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "fsqWkXdWV9Y_cASSYzcdT97bC1U",
+          "id": "UgxjyDYJ6YHtZofptuJ4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "😻😻😻😻😻",
+            "textOriginal": "😻😻😻😻😻",
+            "authorDisplayName": "Isamary Velasquez",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQZo-GJzz4XHEipjJHDMEhSxruPZ5cmqzmeCLTQhso=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCPDP9ZUEjQWVUJQLRgRm2Qw",
+            "authorChannelId": {
+              "value": "UCPDP9ZUEjQWVUJQLRgRm2Qw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-09-01T23:34:53Z",
+            "updatedAt": "2023-09-01T23:34:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vMfx6b86nZ-I1_qM11YzkSK-i-4",
+      "id": "UgwP8x0ZiqT-QEetOth4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lefbKouHZ2knwubVba7bCVbjaBU",
+          "id": "UgwP8x0ZiqT-QEetOth4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "He is so hardworking",
+            "textOriginal": "He is so hardworking",
+            "authorDisplayName": "Army_BTS",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaT2B8DUFqFq7wYibpmO8t-hTNmJzv7laTw4psZY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCxT2pUoq3wIt-3s3PTbD_kg",
+            "authorChannelId": {
+              "value": "UCxT2pUoq3wIt-3s3PTbD_kg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-09-01T21:55:18Z",
+            "updatedAt": "2023-09-01T21:55:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FA4LkSayUsAB_On2hYG44JzTUVc",
+      "id": "UgyDhQY1r2MfMBghXKF4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "yZ8FGck_I_dSQIIZR_2j1Go0al4",
+          "id": "UgyDhQY1r2MfMBghXKF4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "como trabaja el jungkooki!",
+            "textOriginal": "como trabaja el jungkooki!",
+            "authorDisplayName": "Azucena Docente",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRc_4dn0xZxsPPyy6dSQUsxwj0ccEay_2AZxzMk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCtW4KTAkZWht23HV8jxtfRg",
+            "authorChannelId": {
+              "value": "UCtW4KTAkZWht23HV8jxtfRg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-09-01T21:37:41Z",
+            "updatedAt": "2023-09-01T21:37:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LgXotmSWMYFgKCkcXvS2f4QvaHY",
+      "id": "UgzeCvmBkehOUL-A8qJ4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kdj1EhEEFi7ggun-SSTdl4O1LxI",
+          "id": "UgzeCvmBkehOUL-A8qJ4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Happy birthday JK🐰💜💜",
+            "textOriginal": "Happy birthday JK🐰💜💜",
+            "authorDisplayName": "Smile Vlog🌸",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/SqDd6DFdj_Ne_UqPbaOvRcdB33GTG84RhGTKjFtQqCdPK9FvNWKck7DQZYYJJ7cGCMIRrlmZ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCvrb8nXyeVPXCSyLo4POoVA",
+            "authorChannelId": {
+              "value": "UCvrb8nXyeVPXCSyLo4POoVA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2023-09-01T12:37:41Z",
+            "updatedAt": "2023-09-01T12:37:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "l2sX5zrroR4EmT5mjtD2IT-a9qg",
+      "id": "UgzfHN0xnypltEKKRwJ4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rreSQxNApJEE3rq9c2XtH19rsk4",
+          "id": "UgzfHN0xnypltEKKRwJ4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook",
+            "textOriginal": "happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook happy birthday Jungkook",
+            "authorDisplayName": "•Vlogkpophyungie•♡",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/E4o_h8KHEOaQPwcqtgSkfgiSCVSW5bQ5VrAJTClCW5ck3tFjQSZsc9vKvZuUAY1EJGd55BbFmQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCobJ0RNLR0Af42arJKAA1TA",
+            "authorChannelId": {
+              "value": "UCobJ0RNLR0Af42arJKAA1TA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2023-09-01T07:33:43Z",
+            "updatedAt": "2023-09-01T07:33:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "lcStZR0xhE2e1EaCdJW2K_mbMSE",
+      "id": "UgzGkSizeWXk52SSulB4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NcUauhfT517zWJRsRMILvTodst0",
+          "id": "UgzGkSizeWXk52SSulB4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "You have work so hard ❤❤ Happy birthday Jk 💜💜💜",
+            "textOriginal": "You have work so hard ❤❤ Happy birthday Jk 💜💜💜",
+            "authorDisplayName": "Sssniperfox",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/rhp5M_YWIDm3b-n9uT1kzGD5THdk9HCwhqOmoGyjce9metriFCxAwIjCmcqQMxfZ_mdOzwr7Tw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCy0sND_dEMrtPvsDhRujGHw",
+            "authorChannelId": {
+              "value": "UCy0sND_dEMrtPvsDhRujGHw"
             },
             "canRate": true,
             "viewerRating": "none",
             "likeCount": 2,
-            "publishedAt": "2023-08-27T14:03:33Z",
-            "updatedAt": "2023-08-27T14:03:33Z"
+            "publishedAt": "2023-09-01T04:09:11Z",
+            "updatedAt": "2023-09-01T04:09:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vBDvSZqnpQvNbkKUpjybWJkwfkI",
+      "id": "UgwIo4JO6Ch-iIv_5OB4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2n33hp96xZkUyDzmhDU_iUhJXME",
+          "id": "UgwIo4JO6Ch-iIv_5OB4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Happy birthday JK",
+            "textOriginal": "Happy birthday JK",
+            "authorDisplayName": "Star Lights Echo",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/xnFFVARmj04QJNdniimgJGAsDmqFvaxM8SPtfXZZ4T51W7XANDtVy5iQxgS4sutpVr_PSSMgGvc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCK9dWupc3k5lzPQtixQ6gKA",
+            "authorChannelId": {
+              "value": "UCK9dWupc3k5lzPQtixQ6gKA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2023-09-01T03:49:52Z",
+            "updatedAt": "2023-09-01T03:49:52Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "NC0uBNCrcpwUJ23Mz78p_n6K0Yw",
+      "id": "UgxHSMJFNoD6s9p8jZt4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vYj94yh7b8Nr_zDQSs38HmUvCgg",
+          "id": "UgxHSMJFNoD6s9p8jZt4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "Happy birthday jankook",
+            "textOriginal": "Happy birthday jankook",
+            "authorDisplayName": "Md sahid Mia",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaTimQ2CVmjKxGR2MI0frNftZ54NtaNwj9jQJjuyannTCtFfS7scotCayhkgtFV7=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCywyjrftQYS8o_jQwIINjsg",
+            "authorChannelId": {
+              "value": "UCywyjrftQYS8o_jQwIINjsg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2023-09-01T02:41:05Z",
+            "updatedAt": "2023-09-01T02:41:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hg9PUSfrG6Mq36qTXe0bfuD-b_g",
+      "id": "UgwivOrOKjHgZZYPhWN4AaABAg",
+      "snippet": {
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "videoId": "IEu0gsn_9Yw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pNvac2qMb3qNHzI9SSNEKWawZjU",
+          "id": "UgwivOrOKjHgZZYPhWN4AaABAg",
+          "snippet": {
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "videoId": "IEu0gsn_9Yw",
+            "textDisplay": "정국 생일축하해요😍!!!!!!!🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜",
+            "textOriginal": "정국 생일축하해요😍!!!!!!!🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜",
+            "authorDisplayName": "lovely S2",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaR61gdcvOhy-XiSxmckuGQXiAdjUwLprbWTJxuD=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC_K0lzM0S1Z7WJVls9g2dgA",
+            "authorChannelId": {
+              "value": "UC_K0lzM0S1Z7WJVls9g2dgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2023-09-01T01:27:16Z",
+            "updatedAt": "2023-09-01T01:27:16Z"
           }
         },
         "canReply": true,

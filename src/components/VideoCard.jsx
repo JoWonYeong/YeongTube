@@ -42,7 +42,7 @@ export default function VideoCard({ video, type, related }) {
           <time dateTime={publishedAt} className={`${darkMode?'text-dark-text-info-gray':'text-info-gray'} ${infoFontSize}`}>
             {calcTimeDiff(publishedAt)}
           </time>
-          { type === 'list'&& !related && <pre className="hidden lg:block mt-4 whitespace-pre-wrap break-all text-info-gray text-sm overflow-hidden">{description}</pre>}
+          { type === 'list'&& !related && <pre className={`hidden lg:block mt-4 whitespace-pre-wrap break-all ${darkMode?'text-dark-text-info-gray':'text-info-gray'} text-sm overflow-hidden`}>{description}</pre>}
         </div>
       </li>
     </Link>
